@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="Corrected time schedule in initialize_scheduler">
+    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_package/newsapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_package/newsapi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716831638482</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added messages exclusion condition with only 'Removed' in its content">
+      <option name="closed" value="true" />
+      <created>1716835713941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716835713941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -100,7 +107,8 @@
     <MESSAGE value="* Added second scheduler.add_job in initialize_scheduler function&#10;* Added bot_description function&#10;* Added stop_subscription function" />
     <MESSAGE value="* Added bot_description function implementation&#10;* Added stop_subscription function implementation&#10;* Removed start() function from asyncio.gather in main function" />
     <MESSAGE value="Corrected time schedule in initialize_scheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected time schedule in initialize_scheduler" />
+    <MESSAGE value="Added messages exclusion condition with only 'Removed' in its content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added messages exclusion condition with only 'Removed' in its content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
