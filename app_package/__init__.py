@@ -1,4 +1,4 @@
-from bot import start, send_news_to_all_users, timezone_callback
+from bot import start, send_news_to_all_users, timezone_callback, stop_subscription, bot_description
 from config import TELEGRAM_BOT_TOKEN
 import logging
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler
@@ -14,12 +14,18 @@ if __name__ == '__main__':
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
 
+    description_handler = CommandHandler('bot_description', bot_description)
+    application.add_handler(description_handler)
+
     application.add_handler(CallbackQueryHandler(timezone_callback))
+
+    stop_handler = CommandHandler('stop', stop_subscription)
+    application.add_handler(stop_handler)
 
     application.run_polling()
 
 
 async def main():
-    await asyncio.gather(start(), send_news_to_all_users())
+    await asyncio.gather(send_news_to_all_users())
 
 asyncio.run(main())
