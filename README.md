@@ -1,4 +1,4 @@
-![Telegram bot news aggregator based on News API](https://pluspng.com/img-png/newspaper-png-newspaper-icon-image-13632-1000.jpg)
+<img alt="Telegram bot news aggregator based on News API" height="500" src="https://pluspng.com/img-png/newspaper-png-newspaper-icon-image-13632-1000.jpg" width="500"/>
 Telegram bot news aggregator based on News API
 
 This is Postman, a news aggregator bot
