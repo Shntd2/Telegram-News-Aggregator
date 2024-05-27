@@ -46,8 +46,8 @@ async def initialize_scheduler(user_id):
         chosen_timezone_key = user_timezones[user_id]
         if chosen_timezone_key in specific_timezones.values():
             tz = pytz.timezone(chosen_timezone_key)
-            scheduler.add_job(send_news_to_all_users, 'cron', hour=8, minute=0, timezone=tz)
-            scheduler.add_job(send_news_to_all_users, 'cron', hour=20, minute=0, timezone=tz)
+            scheduler.add_job(send_news_to_all_users, 'cron', hour=9, minute=0, timezone=tz)
+            scheduler.add_job(send_news_to_all_users, 'cron', hour=21, minute=0, timezone=tz)
         else:
             print(f"Error: Chosen timezone key '{chosen_timezone_key}' not found in specific_timezones")
 
