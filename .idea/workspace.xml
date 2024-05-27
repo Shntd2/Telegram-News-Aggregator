@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="* Added bot_description function implementation&#10;* Added stop_subscription function implementation&#10;* Removed start() function from asyncio.gather in main function" />
+    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="Corrected time schedule in initialize_scheduler">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_package/newsapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_package/newsapi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716831492013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Corrected time schedule in initialize_scheduler">
+      <option name="closed" value="true" />
+      <created>1716831638482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716831638482</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -88,7 +99,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* Added second scheduler.add_job in initialize_scheduler function&#10;* Added bot_description function&#10;* Added stop_subscription function" />
     <MESSAGE value="* Added bot_description function implementation&#10;* Added stop_subscription function implementation&#10;* Removed start() function from asyncio.gather in main function" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added bot_description function implementation&#10;* Added stop_subscription function implementation&#10;* Removed start() function from asyncio.gather in main function" />
+    <MESSAGE value="Corrected time schedule in initialize_scheduler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected time schedule in initialize_scheduler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

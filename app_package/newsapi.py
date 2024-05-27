@@ -46,6 +46,9 @@ def fetch_news():
 
         news = []
         for article in selected_news:
-            news.append(f"{article['title']}\n{article['description']}\n{article['url']}")
+            title = article.get('title')
+            url = article.get('url')
+            if 'Removed' not in title and 'Removed' not in url:
+                news.append(f"{article['title']}\n{article['description']}\n{article['url']}")
 
         return news
