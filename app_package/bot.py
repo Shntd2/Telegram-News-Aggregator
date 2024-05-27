@@ -1,5 +1,6 @@
 from config import TELEGRAM_BOT_TOKEN
 from specific_timezones import specific_timezones
+from bot_description import description
 from newsapi import fetch_news
 from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
@@ -45,7 +46,8 @@ async def initialize_scheduler(user_id):
         chosen_timezone_key = user_timezones[user_id]
         if chosen_timezone_key in specific_timezones.values():
             tz = pytz.timezone(chosen_timezone_key)
-            scheduler.add_job(send_news_to_all_users, 'cron', hour=16, minute=53, timezone=tz)
+            scheduler.add_job(send_news_to_all_users, 'cron', hour=8, minute=0, timezone=tz)
+            scheduler.add_job(send_news_to_all_users, 'cron', hour=20, minute=0, timezone=tz)
         else:
             print(f"Error: Chosen timezone key '{chosen_timezone_key}' not found in specific_timezones")
 
@@ -59,3 +61,14 @@ async def send_news_to_all_users():
                 await bot.send_message(chat_id=user_id, text=news)
         else:
             await bot.send_message(chat_id=user_id, text='No news available at the moment')
+
+
+async def bot_description(update: Update, context: CallbackContext):
+    await context.bot.send_message(chat_id=update.effective_chat.id, text=description)
+
+
+async def stop_subscription(update: Update, context: CallbackContext):
+    user_id = update.message.from_user.id
+    users.discard(user_id)
+    await context.bot.send_message(chat_id=update.effective_chat.id,
+                                   text='Subscription has been cancelled successfully')
