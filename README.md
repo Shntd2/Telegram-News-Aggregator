@@ -2,7 +2,7 @@ This is Postman, a news aggregator bot
 
 It sends top 20 worldwide news in English twice a day at 08:00 AM and 08:00 PM
 
-Postman sources include Google News and News API top headlines
+Postman sources include Google News and News APIs top headlines
 
 To use it:
 1. Push /start command
