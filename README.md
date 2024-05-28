@@ -6,10 +6,10 @@ Postman sources include Google News and News API top headlines
 
 To use it:
 1. Push /start command
-2. Select preferred time zone from provided options (Available time zones are located in `specific_timezones.py`)
+2. Select preferred time zone from provided options (available time zones are located in `specific_timezones.py`)
 3. Subscription is activated
 
-Bots available commands:
+Bots commands:
 * `/start` - activate the subscription
 * `/stop` - deactivate the subscription
 * `/bot_description` - about bot

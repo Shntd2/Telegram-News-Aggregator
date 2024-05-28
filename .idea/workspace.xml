@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +95,63 @@
       <option name="project" value="LOCAL" />
       <updated>1716835713941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added content to README.MD">
+      <option name="closed" value="true" />
+      <created>1716841937528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841937528</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated README.MD">
+      <option name="closed" value="true" />
+      <created>1716842007344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716842007344</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated README.MD">
+      <option name="closed" value="true" />
+      <created>1716842044874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716842044874</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated README.MD">
+      <option name="closed" value="true" />
+      <created>1716842124931</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716842124931</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated README.MD and bot_description.py">
+      <option name="closed" value="true" />
+      <created>1716842379234</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716842379234</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated line 9">
+      <option name="closed" value="true" />
+      <created>1716842458083</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716842458083</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added requirements.txt">
+      <option name="closed" value="true" />
+      <created>1716843336007</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716843336007</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -108,7 +162,12 @@
     <MESSAGE value="* Added bot_description function implementation&#10;* Added stop_subscription function implementation&#10;* Removed start() function from asyncio.gather in main function" />
     <MESSAGE value="Corrected time schedule in initialize_scheduler" />
     <MESSAGE value="Added messages exclusion condition with only 'Removed' in its content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added messages exclusion condition with only 'Removed' in its content" />
+    <MESSAGE value="Added content to README.MD" />
+    <MESSAGE value="Updated README.MD" />
+    <MESSAGE value="Updated README.MD and bot_description.py" />
+    <MESSAGE value="Updated line 9" />
+    <MESSAGE value="Added requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added requirements.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
