@@ -14,7 +14,7 @@ def fetch_general_headlines(api_key):
         else:
             raise Exception('General headlines news API returned an error')
     except Exception as e:
-        print(f"Error fetching general headlines: {e}")
+        print(f'Error fetching general headlines: {e}')
         return []
 
 
@@ -49,6 +49,6 @@ def fetch_news():
             title = article.get('title')
             url = article.get('url')
             if 'Removed' not in title and 'Removed' not in url:
-                news.append(f"{article['title']}\n{article['description']}\n{article['url']}")
+                news.append(f'{article['title']}\n{article['description']}\n{article['url']}')
 
         return news

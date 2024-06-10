@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="" />
+    <list default="true" id="fc96c043-265d-482a-b70c-88c8f9276fb8" name="Changes" comment="Updated line 5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_package/newsapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_package/newsapi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716843336007</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated lines 9 and 12">
+      <option name="closed" value="true" />
+      <created>1716889218914</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716889218914</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated line 5">
+      <option name="closed" value="true" />
+      <created>1716890376155</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716890376155</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -167,7 +186,9 @@
     <MESSAGE value="Updated README.MD and bot_description.py" />
     <MESSAGE value="Updated line 9" />
     <MESSAGE value="Added requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added requirements.txt" />
+    <MESSAGE value="Updated lines 9 and 12" />
+    <MESSAGE value="Updated line 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated line 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,6 +202,11 @@
           <url>file://$PROJECT_DIR$/app_package/__init__.py</url>
           <line>17</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app_package/newsapi.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
