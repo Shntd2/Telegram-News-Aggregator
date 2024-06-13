@@ -53,7 +53,7 @@ async def initialize_scheduler(user_id):
 
 
 async def send_news_to_all_users():
-    """Send news to all users. This is an asynchronous function."""
+    """Sends news to all users. This is an asynchronous function"""
     news_list = fetch_news()
     for user_id in users:
         if news_list:
@@ -64,10 +64,12 @@ async def send_news_to_all_users():
 
 
 async def bot_description(update: Update, context: CallbackContext):
+    """Command provides bot description"""
     await context.bot.send_message(chat_id=update.effective_chat.id, text=description)
 
 
 async def stop_subscription(update: Update, context: CallbackContext):
+    """Command cancels active subscription"""
     user_id = update.message.from_user.id
     users.discard(user_id)
     await context.bot.send_message(chat_id=update.effective_chat.id,

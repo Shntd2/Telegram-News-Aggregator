@@ -4,6 +4,7 @@ from config import NEWS_API_KEY
 
 
 def fetch_general_headlines(api_key):
+    """Fetches news from News APIs top headlines"""
     url = f'https://newsapi.org/v2/top-headlines?language=en&apiKey={api_key}'
     try:
         response = requests.get(url)
@@ -19,6 +20,7 @@ def fetch_general_headlines(api_key):
 
 
 def fetch_google_news(api_key):
+    """Fetches news from Google News top headlines"""
     url = f'https://newsapi.org/v2/top-headlines?sources=google-news&language=en&apiKey={api_key}'
     try:
         response = requests.get(url)
@@ -34,6 +36,7 @@ def fetch_google_news(api_key):
 
 
 def fetch_news():
+    """Outputs formatted news separately"""
     with ThreadPoolExecutor(max_workers=2) as executor:
         general_headlines = executor.submit(fetch_general_headlines, NEWS_API_KEY)
         google_news = executor.submit(fetch_google_news, NEWS_API_KEY)
